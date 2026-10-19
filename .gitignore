@@ -1,0 +1,30 @@
+# Dane i cache (każdy pobiera sam przez notebook)
+F1-Research/
+*.parquet
+*.json.gz
+_tmp_source/
+reports/
+reports.zip
+*.zip
+
+# Tabele wynikowe (generuje je notebook; w repo trzymamy tylko wykresy, raport HTML i wnioski)
+*.csv
+*.xlsx
+
+# Materiały z zajęć (prawa autorskie prowadzącej - nie publikujemy)
+Eksploracyjna analiza danych.pdf
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# System / edytor
+.DS_Store
+Thumbs.db
+desktop.ini
+*:Zone.Identifier
+.vscode/
+.idea/
