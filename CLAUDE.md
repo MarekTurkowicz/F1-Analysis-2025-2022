@@ -5,6 +5,8 @@ Etap obecny: **neutralna analiza wszystkich parametrów** (bez założonego celu
 
 ## Pliki
 - `notebooks/Analiza korelacji parametrow F1 - pelna.ipynb` — główny notebook (cache, katalog parametrów, macierze, ranking par, odporność, tory, nieliniowe, η² kategorii, telemetria próbkowa, wnioski).
+- `notebooks/Analiza korelacji parametrow F1 - Emilia Romagna i Dutch.ipynb` — ta sama metoda dla Emilia Romagna + Dutch GP 2025, dane przez bibliotekę `tif1` (te same tabele cache co RAW). Wyniki osobno: `reports_emilia_dutch/`. Nie mieszać z notebookiem „pelna”.
+- `raporty/` — raporty zespołu, jeden folder na osobę (`raporty/<imię>/`: README z wnioskami + wykresy PNG); `raporty/emilia/` — wnioski z Emilii i Dutch.
 - `notebooks/Austrian and Azerbaijan Grand Prix parameters corelations.ipynb` — oryginał użytkownika (nie ruszać bez prośby).
 - `notebooks/archiwum/` — kopie archiwalne (v1 oryginał, v2 hipoteza opon).
 - `Raport/` — lokalna kopia wyników (raport_analizy_F1.html + PNG + CSV; CSV są w .gitignore); `Raport/hipoteza_opony/` — wykresy hipotezy opon. Notebook generuje je w `reports/`.
