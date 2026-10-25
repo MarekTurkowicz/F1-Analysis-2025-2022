@@ -4,7 +4,9 @@ F1-Research/
 *.json.gz
 _tmp_source/
 reports/
+reports_emilia_dutch/
 reports.zip
+reports_emilia_dutch.zip
 *.zip
 
 # Tabele wynikowe (generuje je notebook; w repo trzymamy tylko wykresy, raport HTML i wnioski)
